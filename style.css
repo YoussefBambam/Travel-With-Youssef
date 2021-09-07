@@ -1,0 +1,79 @@
+* {margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {display: inline-block;
+    width: 695px;
+    height: 380px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.clearfix::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.auther-img {
+    width: 185px;
+    height: 170px;
+    border-radius: 50%;
+    float: left;
+}
+h2{text-align: center;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+h3 {text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;}
+h1 {color: crimson;
+}
+h1,h2,p {margin-bottom: 5px;
+margin-top: 5px;
+}
+p {color: black;
+   text-align: right;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+.container {
+    width: 950px;
+    margin: 20px auto 0px auto;
+}
+.blog-post {
+    background-color: rgb(255, 255, 255);
+    width: 75%;
+    float: left;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+.other-posts { 
+    background-color: #1b2263;
+    width: 25%;
+    float: left;  
+    border-left: 3px solid #808080;     
+    color: rgb(255, 255, 255); 
+}  
+.other-posts p {
+    color: white;
+    margin-bottom: 25px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+.other-posts a {color: white;}
+
+
+.auther{
+    background-color: rgba(100, 148, 237, 0.226);
+    border-top: 5px solid #808080;
+    text-align-last: left;
+}
+
+.auther p{float: left;
+    margin-top: 80px;
+    margin-left: 10px;
+}
+
+
+
